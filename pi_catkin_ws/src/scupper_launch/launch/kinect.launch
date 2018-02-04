@@ -1,0 +1,8 @@
+
+<launch>
+	<include file="$(find vidlaunch)/launch/vidlaunch.launch">
+	</include>
+
+	<include file="$(find freenect_launch)/launch/freenect.launch">
+	</include>
+</launch>

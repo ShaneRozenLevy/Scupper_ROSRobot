@@ -1,0 +1,8 @@
+prefix=/home/shane/catkin_ws/install
+
+Name: nav_odom
+Description: Description of nav_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/shane/catkin_ws/install/lib 
+Requires: 

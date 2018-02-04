@@ -1,0 +1,5 @@
+<launch>
+	<include file="$(find urdf_tutorial)/launch/display2.launch"/>
+	<include file="$(find scupper_launch)/launch/odomtf.launch"/>
+	<node pkg="nav_odom" name="model_tf_broadcaster" type="model-tf-broadcaster"/>	
+</launch>

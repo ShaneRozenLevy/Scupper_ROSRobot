@@ -1,0 +1,8 @@
+prefix=/home/shane/catkin_ws/install
+
+Name: scupper_maps
+Description: Description of scupper_maps
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/shane/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/scupper/catkin_ws/devel
+
+Name: scupper_launch
+Description: Description of scupper_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/scupper/catkin_ws/devel/lib 
+Requires: 

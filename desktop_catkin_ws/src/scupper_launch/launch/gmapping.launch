@@ -1,0 +1,13 @@
+<launch>
+	<node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
+	        <remap from="scan" to="depth_scan"/>
+		<param name="map_update_interval" value="0.5"/>
+		<param name="maxUrange" value="4.5"/>
+		<param name="minimumScore" value="100"/>
+		<param name="linearUpdate" value="0.42"/>
+		<param name="angularUpdate" value="0.4"/>
+		<param name="temporalUpdate" value="-1.0"/>
+		<param name="particles" value="80"/>
+		<param name="stt" value="0.03"/>
+	</node>
+</launch>

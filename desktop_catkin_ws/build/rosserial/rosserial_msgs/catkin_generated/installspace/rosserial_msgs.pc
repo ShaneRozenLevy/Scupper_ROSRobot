@@ -1,0 +1,8 @@
+prefix=/home/shane/catkin_ws/install
+
+Name: rosserial_msgs
+Description: Description of rosserial_msgs
+Version: 0.7.7
+Cflags: -I/home/shane/catkin_ws/install/include
+Libs: -L/home/shane/catkin_ws/install/lib 
+Requires: message_runtime

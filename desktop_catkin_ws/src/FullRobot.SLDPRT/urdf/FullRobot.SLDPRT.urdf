@@ -1,0 +1,43 @@
+<robot
+  name="FullRobot.SLDPRT">
+  <link
+    name="FullRobot.SLDPRT">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="1.282" />
+      <inertia
+        ixx="0.00693773356442058"
+        ixy="-3.73366623919577E-06"
+        ixz="-0.000510104715772123"
+        iyy="0.00456319360510157"
+        iyz="-4.34172747023293E-08"
+        izz="0.00491557982167062" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FullRobot.SLDPRT/meshes/FullRobot.SLDPRT.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FullRobot.SLDPRT/meshes/FullRobot.SLDPRT.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,2 @@
+beginner_tutorials:nav_odom:rosserial/rosserial:rosserial/rosserial_arduino:rosserial/rosserial_client:rosserial/rosserial_embeddedlinux:rosserial/rosserial_mbed:rosserial/rosserial_msgs:rosserial/rosserial_python:rosserial/rosserial_server:rosserial/rosserial_test:rosserial/rosserial_tivac:rosserial/rosserial_windows:rosserial/rosserial_xbee:scupper_launch:scupper_maps
+-DCATKIN_DEVEL_PREFIX=/home/shane/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/shane/catkin_ws/install -G Unix Makefiles

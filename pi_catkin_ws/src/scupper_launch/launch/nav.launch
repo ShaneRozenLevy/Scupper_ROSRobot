@@ -1,0 +1,8 @@
+<launch>
+	<include file ="$(find scupper_launch)/launch/kinect.launch">
+	</include>
+	
+	<include file ="$(find scupper_launch)/launch/teleop.launch">
+	</include>
+
+</launch>

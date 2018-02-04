@@ -1,0 +1,2 @@
+nav_odom:scupper_launch:vidlaunch
+-DCATKIN_DEVEL_PREFIX=/home/scupper/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/scupper/catkin_ws/install -G Unix Makefiles
